@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51C887214EF85BA000843E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51C887114EF85BA000843E8 /* UIKit.framework */; };
+		C51C887414EF85BA000843E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51C887314EF85BA000843E8 /* Foundation.framework */; };
+		C51C887614EF85BA000843E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51C887514EF85BA000843E8 /* CoreGraphics.framework */; };
+		C51C887C14EF85BA000843E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C51C887A14EF85BA000843E8 /* InfoPlist.strings */; };
+		C51C887E14EF85BA000843E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C51C887D14EF85BA000843E8 /* main.m */; };
+		C51C888214EF85BA000843E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C51C888114EF85BA000843E8 /* AppDelegate.m */; };
+		C51C888514EF85BA000843E8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51C888414EF85BA000843E8 /* RootViewController.m */; };
+		C51C888814EF85BA000843E8 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51C888714EF85BA000843E8 /* DataViewController.m */; };
+		C51C888B14EF85BA000843E8 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51C888A14EF85BA000843E8 /* ModelController.m */; };
+		C51C888E14EF85BA000843E8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51C888C14EF85BA000843E8 /* MainStoryboard.storyboard */; };
+		C51C889514EF8677000843E8 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51C889414EF8677000843E8 /* CoreImage.framework */; };
+		C51C889714EF868E000843E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51C889614EF868E000843E8 /* QuartzCore.framework */; };
+		C51C889914EF86B3000843E8 /* facedetectionpic0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51C889814EF86B3000843E8 /* facedetectionpic0.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C51C886D14EF85BA000843E8 /* EasyFaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyFaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51C887114EF85BA000843E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C51C887314EF85BA000843E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C51C887514EF85BA000843E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C51C887914EF85BA000843E8 /* EasyFaceDetection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyFaceDetection-Info.plist"; sourceTree = "<group>"; };
+		C51C887B14EF85BA000843E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C51C887D14EF85BA000843E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C51C887F14EF85BA000843E8 /* EasyFaceDetection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyFaceDetection-Prefix.pch"; sourceTree = "<group>"; };
+		C51C888014EF85BA000843E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C51C888114EF85BA000843E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C51C888314EF85BA000843E8 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C51C888414EF85BA000843E8 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C51C888614EF85BA000843E8 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		C51C888714EF85BA000843E8 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		C51C888914EF85BA000843E8 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		C51C888A14EF85BA000843E8 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		C51C888D14EF85BA000843E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C51C889414EF8677000843E8 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		C51C889614EF868E000843E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C51C889814EF86B3000843E8 /* facedetectionpic0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facedetectionpic0.jpg; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51C886A14EF85BA000843E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51C889714EF868E000843E8 /* QuartzCore.framework in Frameworks */,
+				C51C889514EF8677000843E8 /* CoreImage.framework in Frameworks */,
+				C51C887214EF85BA000843E8 /* UIKit.framework in Frameworks */,
+				C51C887414EF85BA000843E8 /* Foundation.framework in Frameworks */,
+				C51C887614EF85BA000843E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C51C886214EF85BA000843E8 = {
+			isa = PBXGroup;
+			children = (
+				C51C889614EF868E000843E8 /* QuartzCore.framework */,
+				C51C889414EF8677000843E8 /* CoreImage.framework */,
+				C51C887714EF85BA000843E8 /* EasyFaceDetection */,
+				C51C887014EF85BA000843E8 /* Frameworks */,
+				C51C886E14EF85BA000843E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C51C886E14EF85BA000843E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51C886D14EF85BA000843E8 /* EasyFaceDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51C887014EF85BA000843E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C51C887114EF85BA000843E8 /* UIKit.framework */,
+				C51C887314EF85BA000843E8 /* Foundation.framework */,
+				C51C887514EF85BA000843E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C51C887714EF85BA000843E8 /* EasyFaceDetection */ = {
+			isa = PBXGroup;
+			children = (
+				C51C889814EF86B3000843E8 /* facedetectionpic0.jpg */,
+				C51C888014EF85BA000843E8 /* AppDelegate.h */,
+				C51C888114EF85BA000843E8 /* AppDelegate.m */,
+				C51C888314EF85BA000843E8 /* RootViewController.h */,
+				C51C888414EF85BA000843E8 /* RootViewController.m */,
+				C51C888614EF85BA000843E8 /* DataViewController.h */,
+				C51C888714EF85BA000843E8 /* DataViewController.m */,
+				C51C888914EF85BA000843E8 /* ModelController.h */,
+				C51C888A14EF85BA000843E8 /* ModelController.m */,
+				C51C888C14EF85BA000843E8 /* MainStoryboard.storyboard */,
+				C51C887814EF85BA000843E8 /* Supporting Files */,
+			);
+			path = EasyFaceDetection;
+			sourceTree = "<group>";
+		};
+		C51C887814EF85BA000843E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C51C887914EF85BA000843E8 /* EasyFaceDetection-Info.plist */,
+				C51C887A14EF85BA000843E8 /* InfoPlist.strings */,
+				C51C887D14EF85BA000843E8 /* main.m */,
+				C51C887F14EF85BA000843E8 /* EasyFaceDetection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C51C886C14EF85BA000843E8 /* EasyFaceDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51C889114EF85BA000843E8 /* Build configuration list for PBXNativeTarget "EasyFaceDetection" */;
+			buildPhases = (
+				C51C886914EF85BA000843E8 /* Sources */,
+				C51C886A14EF85BA000843E8 /* Frameworks */,
+				C51C886B14EF85BA000843E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyFaceDetection;
+			productName = EasyFaceDetection;
+			productReference = C51C886D14EF85BA000843E8 /* EasyFaceDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C51C886414EF85BA000843E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = C51C886714EF85BA000843E8 /* Build configuration list for PBXProject "EasyFaceDetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C51C886214EF85BA000843E8;
+			productRefGroup = C51C886E14EF85BA000843E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C51C886C14EF85BA000843E8 /* EasyFaceDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C51C886B14EF85BA000843E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51C887C14EF85BA000843E8 /* InfoPlist.strings in Resources */,
+				C51C888E14EF85BA000843E8 /* MainStoryboard.storyboard in Resources */,
+				C51C889914EF86B3000843E8 /* facedetectionpic0.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C51C886914EF85BA000843E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51C887E14EF85BA000843E8 /* main.m in Sources */,
+				C51C888214EF85BA000843E8 /* AppDelegate.m in Sources */,
+				C51C888514EF85BA000843E8 /* RootViewController.m in Sources */,
+				C51C888814EF85BA000843E8 /* DataViewController.m in Sources */,
+				C51C888B14EF85BA000843E8 /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C51C887A14EF85BA000843E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51C887B14EF85BA000843E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C51C888C14EF85BA000843E8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51C888D14EF85BA000843E8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C51C888F14EF85BA000843E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C51C889014EF85BA000843E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51C889214EF85BA000843E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyFaceDetection/EasyFaceDetection-Prefix.pch";
+				INFOPLIST_FILE = "EasyFaceDetection/EasyFaceDetection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C51C889314EF85BA000843E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyFaceDetection/EasyFaceDetection-Prefix.pch";
+				INFOPLIST_FILE = "EasyFaceDetection/EasyFaceDetection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C51C886714EF85BA000843E8 /* Build configuration list for PBXProject "EasyFaceDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51C888F14EF85BA000843E8 /* Debug */,
+				C51C889014EF85BA000843E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51C889114EF85BA000843E8 /* Build configuration list for PBXNativeTarget "EasyFaceDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51C889214EF85BA000843E8 /* Debug */,
+				C51C889314EF85BA000843E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C51C886414EF85BA000843E8 /* Project object */;
+}
